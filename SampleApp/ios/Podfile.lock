@@ -76,7 +76,7 @@ PODS:
   - hermes-engine (0.70.6)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
-  - PersonaInquirySDK2 (2.5.3)
+  - PersonaInquirySDK2 (2.5.4)
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -369,8 +369,8 @@ PODS:
     - React-jsi (= 0.70.6)
     - React-logger (= 0.70.6)
     - React-perflogger (= 0.70.6)
-  - RNPersonaInquiry2 (2.2.28):
-    - PersonaInquirySDK2 (= 2.5.3)
+  - RNPersonaInquiry2 (2.2.29):
+    - PersonaInquirySDK2 (= 2.5.4)
     - React-Core
   - SocketRocket (0.6.0)
   - Yoga (1.14.0)
@@ -550,7 +550,7 @@ SPEC CHECKSUMS:
   hermes-engine: 2af7b7a59128f250adfd86f15aa1d5a2ecd39995
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
-  PersonaInquirySDK2: 810418418dd0b5342ec9e77d063cb637d3ac3343
+  PersonaInquirySDK2: 503f2a9ed32757a5ab8cea08277e64284e8650e1
   RCT-Folly: 0080d0a6ebf2577475bda044aa59e2ca1f909cda
   RCTRequired: e1866f61af7049eb3d8e08e8b133abd38bc1ca7a
   RCTTypeSafety: 27c2ac1b00609a432ced1ae701247593f07f901e
@@ -578,7 +578,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: c75ceef7aa60a33b2d5731ebe5800ddde40cefc4
   React-runtimeexecutor: 15437b576139df27635400de0599d9844f1ab817
   ReactCommon: 349be31adeecffc7986a0de875d7fb0dcf4e251c
-  RNPersonaInquiry2: 75a80432a2ddbaa1234fa65ec9651aa6a7dddea9
+  RNPersonaInquiry2: 45a0bf81254997ae77f31f2e2989a0fe5cdf1891
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
