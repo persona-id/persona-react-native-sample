@@ -5650,10 +5650,10 @@ react-native-gradle-plugin@^0.70.3:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz#cbcf0619cbfbddaa9128701aa2d7b4145f9c4fc8"
   integrity sha512-oOanj84fJEXUg9FoEAQomA8ISG+DVIrTZ3qF7m69VQUJyOGYyDZmPqKcjvRku4KXlEH6hWO9i4ACLzNBh8gC0A==
 
-react-native-persona@^2.2.28:
-  version "2.2.29"
-  resolved "https://registry.yarnpkg.com/react-native-persona/-/react-native-persona-2.2.29.tgz#38c4435e9929898ffcb7026587b5106daefc7ada"
-  integrity sha512-aZHFPf0Z4jCex/8FcrH6FgmdUQDXun2r785TACDD4mNI8srWrsWtbOCdG1856W28SD4ijKPhlsd5LGihOzPNwg==
+react-native-persona@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-persona/-/react-native-persona-2.4.0.tgz#c0751eba58a321c414e7a4ff1f5c2c7c50151931"
+  integrity sha512-nrfxy87ROAEWbLwzLvlcRU5fkjxKL1iJXzOJfOROnEdWVeIysdoaoj9vMKCZNb+YkKaiuFJSFpQ6P/dyOP1Ftg==
   dependencies:
     chalk "^4.0.0"
     cli-table "^0.3.1"
