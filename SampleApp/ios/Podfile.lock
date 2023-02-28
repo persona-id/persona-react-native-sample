@@ -369,7 +369,7 @@ PODS:
     - React-jsi (= 0.70.6)
     - React-logger (= 0.70.6)
     - React-perflogger (= 0.70.6)
-  - RNPersonaInquiry2 (2.4.0):
+  - RNPersonaInquiry2 (2.4.1):
     - PersonaInquirySDK2 (= 2.7.0)
     - React-Core
   - SocketRocket (0.6.0)
@@ -578,7 +578,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: c75ceef7aa60a33b2d5731ebe5800ddde40cefc4
   React-runtimeexecutor: 15437b576139df27635400de0599d9844f1ab817
   ReactCommon: 349be31adeecffc7986a0de875d7fb0dcf4e251c
-  RNPersonaInquiry2: 1e8858f0c3b4e9cb8838cf4e1faf9794efc83ab2
+  RNPersonaInquiry2: 633f1405b7c5901e6bdbe3fbfca54841beeccacf
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
