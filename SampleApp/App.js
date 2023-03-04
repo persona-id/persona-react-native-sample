@@ -6,43 +6,20 @@
  * @flow strict-local
  */
 
-import React, {useCallback} from 'react';
-import type {Node} from 'react';
+import React from 'react';
+import {Node} from 'react';
 import {
   SafeAreaView,
   ScrollView,
   StyleSheet,
-  Text,
   TextInput,
-  useColorScheme,
-  TouchableOpacity,
-  View,
+  Button,
+  Alert,
 } from 'react-native';
-
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-
-import {Inquiry} from 'react-native-persona';
+import {Inquiry, Environment} from 'react-native-persona';
 
 const App: () => Node = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   const [text, onChangeText] = React.useState(null);
-
-  const handleBeginInquiry = () => {
-    if (text == null) {
-      return;
-    }
-    Inquiry.fromTemplate(text)
-      .onComplete((inquiryId, status, fields) => {})
-      .onCanceled((inquiryId, session) => {})
-      .onError(debugMessage => {})
-      .build()
-      .start();
-  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -56,11 +33,25 @@ const App: () => Node = () => {
           autoCapitalize="none"
           placeholder={'Enter inquiry template id: itmpl_....'}
         />
-        <View style={styles.buttonContainer}>
-          <TouchableOpacity onPress={handleBeginInquiry} style={styles.button}>
-            <Text style={styles.buttonText}>Create Inquiry</Text>
-          </TouchableOpacity>
-        </View>
+        <Button
+          title="Start Inquiry"
+          onPress={() => {
+            Inquiry.fromTemplate(text)
+              .environment(Environment.SANDBOX)
+              .onComplete((inquiryId, status, fields) =>
+                Alert.alert(
+                  'Complete',
+                  `Inquiry ${inquiryId} completed with status "${status}."`,
+                ),
+              )
+              .onCanceled((inquiryId, sessionToken) =>
+                Alert.alert('Canceled', `Inquiry ${inquiryId} was cancelled`),
+              )
+              .onError(error => Alert.alert('Error', error.message))
+              .build()
+              .start();
+          }}
+        />
       </ScrollView>
     </SafeAreaView>
   );
@@ -79,13 +70,6 @@ const styles = StyleSheet.create({
     margin: 12,
     borderWidth: 1,
     padding: 10,
-  },
-  button: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  buttonText: {
-    color: '#631FFF',
   },
 });
 
