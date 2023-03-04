@@ -1,4 +1,4 @@
-# persona-react-native-sample
+# Persona React Native Sample
 A simple React Native app that showcases use of the `react-native-persona` package.
 
 ## Integration guide
