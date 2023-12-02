@@ -5,6 +5,10 @@ platform :ios, '12.4'
 install! 'cocoapods', :deterministic_uuids => false
 
 target 'SampleApp' do
+  #only add these 2 pods if you need to integrate nfc.
+  pod 'RNPersonaInquiry2', :path => '../node_modules/react-native-persona'
+  pod 'RNPersonaInquiry2/Nfc', :path => '../node_modules/react-native-persona'
+
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -20,8 +24,9 @@ target 'SampleApp' do
     # Enables Flipper.
     #
     # Note that if you have use_frameworks! enabled, Flipper will not work and
-    # you should disable the next line.
-    :flipper_configuration => FlipperConfiguration.enabled,
+    # you should disable it. Also turn this off if you are using the 
+    # PersonaNfc pod.
+    # :flipper_configuration => FlipperConfiguration.enabled,
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
