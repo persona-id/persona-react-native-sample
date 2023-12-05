@@ -256,6 +256,10 @@ dependencies {
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
+    // include this line if integrating with the nfc module. note that the nfc-impl
+    // version MUST match the version of the main sdk module.
+    implementation "com.withpersona.sdk2:nfc-impl:2.8.5"
+
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.fbjni'
     }
