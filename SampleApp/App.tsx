@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import {Node} from 'react';
+import {PropsWithChildren} from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -18,7 +18,7 @@ import {
 } from 'react-native';
 import {Inquiry, Environment} from 'react-native-persona';
 
-const App: () => Node = () => {
+function App(): React.JSX.Element {
   const [text, onChangeText] = React.useState(null);
 
   return (
