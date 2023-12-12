@@ -40,7 +40,7 @@ allprojects {
         }
         google()
         maven { url 'https://www.jitpack.io' }
-        jcenter()
+        maven { url = uri("https://plugins.gradle.org/m2/") }
     }
 }
 
