@@ -73,8 +73,9 @@ PODS:
   - hermes-engine/Pre-built (0.73.0)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
-  - PersonaInquirySDK2 (2.13.0)
-  - PersonaNfc (2.12.6)
+  - PersonaInquirySDK2 (2.14.1)
+  - PersonaNfc (2.14.1)
+  - PersonaWebRtc (2.14.1)
   - RCT-Folly (2022.05.16.00):
     - boost
     - DoubleConversion
@@ -1113,17 +1114,22 @@ PODS:
     - React-jsi (= 0.73.0)
     - React-logger (= 0.73.0)
     - React-perflogger (= 0.73.0)
-  - RNPersonaInquiry2 (2.7.5):
+  - RNPersonaInquiry2 (2.8.2):
     - React-Core
-    - RNPersonaInquiry2/Core (= 2.7.5)
-  - RNPersonaInquiry2/Core (2.7.5):
-    - PersonaInquirySDK2 (= 2.13.0)
+    - RNPersonaInquiry2/Core (= 2.8.2)
+  - RNPersonaInquiry2/Core (2.8.2):
+    - PersonaInquirySDK2 (= 2.14.1)
     - React-Core
-  - RNPersonaInquiry2/Nfc (2.7.5):
+  - RNPersonaInquiry2/Nfc (2.8.2):
     - OpenSSL-Universal (<= 1.1.1900, >= 1.1.180)
-    - PersonaNfc (= 2.12.6)
+    - PersonaNfc (= 2.14.1)
     - React-Core
+  - RNPersonaInquiry2/WebRtc (2.8.2):
+    - PersonaWebRtc (= 2.14.1)
+    - React-Core
+    - WebRTC-lib (= 111.0.0)
   - SocketRocket (0.6.1)
+  - WebRTC-lib (111.0.0)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -1201,6 +1207,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNPersonaInquiry2 (from `../node_modules/react-native-persona`)
   - RNPersonaInquiry2/Nfc (from `../node_modules/react-native-persona`)
+  - RNPersonaInquiry2/WebRtc (from `../node_modules/react-native-persona`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1219,7 +1226,9 @@ SPEC REPOS:
     - OpenSSL-Universal
     - PersonaInquirySDK2
     - PersonaNfc
+    - PersonaWebRtc
     - SocketRocket
+    - WebRTC-lib
 
 EXTERNAL SOURCES:
   boost:
@@ -1341,8 +1350,9 @@ SPEC CHECKSUMS:
   hermes-engine: 34304f8c6e8fa68f63a5fe29af82f227d817d7a7
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
-  PersonaInquirySDK2: 65697651f9b7ff06b5dd4365c0d3216087813873
-  PersonaNfc: af5b428d6e9594484c40c71e1f71faa837620751
+  PersonaInquirySDK2: c28dc32c8a972d0d68abe68fd8cf6056b558a66f
+  PersonaNfc: 9ee0740b049ca8c027da802a140ca5418f232e90
+  PersonaWebRtc: 5321235221f794749213a37016ec2d0b43276e54
   RCT-Folly: 7169b2b1c44399c76a47b5deaaba715eeeb476c0
   RCTRequired: 5e3631b27c08716986980ef23eed8abdee1cdcaf
   RCTTypeSafety: 02a64828b0b428eb4f63de1397d44fb2d0747e85
@@ -1384,10 +1394,11 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 77543c74df984ce56c09d49d427149c53784aaf6
   React-utils: 42708ea436853045ef1eaff29996813d9fbbe209
   ReactCommon: 851280fb976399ca1aabc74cc2c3612069ea70a2
-  RNPersonaInquiry2: e3078b0581d32a59f9c85d663de50683d1b26622
+  RNPersonaInquiry2: a03824e84cf4a3849e9feb8b1d4d4ab1498c3141
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
+  WebRTC-lib: 7e7f08b0062e5610599a73c0c232ed22662c0bf1
   Yoga: 20d6a900dcc8d61d5e3b799bbf627cc34474a8c4
 
-PODFILE CHECKSUM: 400d315466e064864bc4f31dd91eb36a0c17f225
+PODFILE CHECKSUM: e09468bb9c6022e39acae1711c0c63661522a998
 
 COCOAPODS: 1.14.3
