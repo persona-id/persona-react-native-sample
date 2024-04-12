@@ -5717,10 +5717,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-persona@2.8.2:
-  version "2.8.2"
-  resolved "https://registry.yarnpkg.com/react-native-persona/-/react-native-persona-2.8.2.tgz#c84ac30bdcf4889944b5e0b0180e1f1f79e89fe4"
-  integrity sha512-IYtmIV0fHBd5NDUBz+nARtqcVlSCg88KQIY+CpV+rUZS3dILUPZ4IbipvwjuOv9Petw1w8LoQKYLrUhlUt57UA==
+react-native-persona@2.8.11:
+  version "2.8.11"
+  resolved "https://registry.yarnpkg.com/react-native-persona/-/react-native-persona-2.8.11.tgz#76030f46aad883e1d783588e5731921af3440a00"
+  integrity sha512-Y3txCseN+uhlzZAkFxu/3yV/7xvBA0EeHOabSnkGRGo6aT9tFV+vuTrt74kS0mKkMklivwMMukkUjfn5Tq4v6w==
   dependencies:
     chalk "^4.0.0"
     cli-table "^0.3.1"
