@@ -36,7 +36,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Please allow access to your camera for verification purposes.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>Used to support identity verification</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Needed for video verification.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
