@@ -73,6 +73,9 @@ node_modules
 .nvm
 package-lock.json
 
+# Yarn
+yarn.lock
+
 # OS X
 .DS_Store
 
