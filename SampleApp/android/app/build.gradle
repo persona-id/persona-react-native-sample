@@ -113,11 +113,11 @@ dependencies {
 
     // include this line if integrating with the nfc module. note that the nfc-impl
     // version MUST match the version of the main sdk module.
-    implementation("com.withpersona.sdk2:nfc-impl:2.12.4")
+    implementation("com.withpersona.sdk2:nfc-impl:2.47.0")
 
     // include this line if integrating with the webrtc module. note that the webrtc-impl
     // version MUST match the version of the main sdk module.
-    implementation("com.withpersona.sdk2:webrtc-impl:2.12.4")
+    implementation("com.withpersona.sdk2:webrtc-impl:2.47.0")
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")

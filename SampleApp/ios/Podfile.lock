@@ -8,9 +8,9 @@ PODS:
     - hermes-engine/Pre-built (= 0.75.2)
   - hermes-engine/Pre-built (0.75.2)
   - Persona-OpenSSL-Universal (2.0.1)
-  - PersonaInquirySDK2 (2.22.3)
-  - PersonaNfc (2.22.3)
-  - PersonaWebRtc (2.22.3)
+  - PersonaInquirySDK2 (2.51.0)
+  - PersonaNfc (2.51.0)
+  - PersonaWebRtc (2.51.0)
   - RCT-Folly (2024.01.01.00):
     - boost
     - DoubleConversion
@@ -1501,18 +1501,18 @@ PODS:
     - React-logger (= 0.75.2)
     - React-perflogger (= 0.75.2)
     - React-utils (= 0.75.2)
-  - RNPersonaInquiry2 (2.9.3):
+  - RNPersonaInquiry2 (2.47.0):
     - React-Core
-    - RNPersonaInquiry2/Core (= 2.9.3)
-  - RNPersonaInquiry2/Core (2.9.3):
-    - PersonaInquirySDK2 (= 2.22.3)
+    - RNPersonaInquiry2/Core (= 2.47.0)
+  - RNPersonaInquiry2/Core (2.47.0):
+    - PersonaInquirySDK2 (= 2.51.0)
     - React-Core
-  - RNPersonaInquiry2/Nfc (2.9.3):
+  - RNPersonaInquiry2/Nfc (2.47.0):
     - Persona-OpenSSL-Universal (= 2.0.1)
-    - PersonaNfc (= 2.22.3)
+    - PersonaNfc (= 2.51.0)
     - React-Core
-  - RNPersonaInquiry2/WebRtc (2.9.3):
-    - PersonaWebRtc (= 2.22.3)
+  - RNPersonaInquiry2/WebRtc (2.47.0):
+    - PersonaWebRtc (= 2.51.0)
     - React-Core
     - WebRTC-lib (= 111.0.0)
   - SocketRocket (0.7.0)
@@ -1734,9 +1734,9 @@ SPEC CHECKSUMS:
   glog: 69ef571f3de08433d766d614c73a9838a06bf7eb
   hermes-engine: 3b6e0717ca847e2fc90a201e59db36caf04dee88
   Persona-OpenSSL-Universal: 2d9f48996d5500547fc111b246fa3814ffc1c1e4
-  PersonaInquirySDK2: 2aa6bafbe97a64ce5af68fd1c49d56af6b24d4b3
-  PersonaNfc: a8835375280cd799ccc6f03f4e65356bdf40cad2
-  PersonaWebRtc: 8c5053540fd9cf506e8196b7a099512bc711a2c2
+  PersonaInquirySDK2: 10a8cfbd7a9df1388ac47c8f9376b0024be84f9b
+  PersonaNfc: 6b096a50a33a5ebee12051fcf1556f47fe47b877
+  PersonaWebRtc: 9f83557d81b14aed111b6d1f99c0cda2d553d7b9
   RCT-Folly: 4464f4d875961fce86008d45f4ecf6cef6de0740
   RCTDeprecation: 34cbf122b623037ea9facad2e92e53434c5c7422
   RCTRequired: 24c446d7bcd0f517d516b6265d8df04dc3eb1219
@@ -1792,11 +1792,11 @@ SPEC CHECKSUMS:
   React-utils: 81a715d9c0a2a49047e77a86f3a2247408540deb
   ReactCodegen: 60973d382704c793c605b9be0fc7f31cb279442f
   ReactCommon: 6ef348087d250257c44c0204461c03f036650e9b
-  RNPersonaInquiry2: 23fb87060acb5565f83ba4adc17a26a233a8ad9d
+  RNPersonaInquiry2: 198404cfd3a6d8c5f08676a200d7173224980f7d
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   WebRTC-lib: 7e7f08b0062e5610599a73c0c232ed22662c0bf1
   Yoga: a1d7895431387402a674fd0d1c04ec85e87909b8
 
-PODFILE CHECKSUM: 219ff2d7b9ffdc614e8e8272e60718fc2b9d4cd4
+PODFILE CHECKSUM: 984b7c01d4cd9afaf088066141390cdc14b14c14
 
 COCOAPODS: 1.15.2
