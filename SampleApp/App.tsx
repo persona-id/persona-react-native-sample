@@ -16,10 +16,38 @@ import {
   Button,
   Alert,
 } from 'react-native';
-import {Inquiry, Environment} from 'react-native-persona';
+import {Inquiry, Environment, PersonaInquiryView} from 'react-native-persona';
 
 function App(): React.JSX.Element {
   const [text, onChangeText] = React.useState(null);
+  const [inlineInquiry, setInlineInquiry] = React.useState<Inquiry | null>(null);
+
+  if (inlineInquiry) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <PersonaInquiryView
+          style={styles.inline}
+          inquiry={inlineInquiry}
+          onReady={() => {}}
+          onComplete={(inquiryId, status) => {
+            setInlineInquiry(null);
+            Alert.alert(
+              'Complete',
+              `Inquiry ${inquiryId} completed with status "${status}."`,
+            );
+          }}
+          onCanceled={inquiryId => {
+            setInlineInquiry(null);
+            Alert.alert('Canceled', `Inquiry ${inquiryId} was cancelled`);
+          }}
+          onError={error => {
+            setInlineInquiry(null);
+            Alert.alert('Error', error.message);
+          }}
+        />
+      </SafeAreaView>
+    );
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -52,6 +80,20 @@ function App(): React.JSX.Element {
               .start();
           }}
         />
+        <Button
+          title="Launch in Inline Mode"
+          onPress={() => {
+            try {
+              setInlineInquiry(
+                Inquiry.fromTemplate(text)
+                  .environment(Environment.SANDBOX)
+                  .build(),
+              );
+            } catch (error) {
+              Alert.alert('Error', (error as Error).message);
+            }
+          }}
+        />
       </ScrollView>
     </SafeAreaView>
   );
@@ -70,6 +112,9 @@ const styles = StyleSheet.create({
     margin: 12,
     borderWidth: 1,
     padding: 10,
+  },
+  inline: {
+    flex: 1,
   },
 });
 
