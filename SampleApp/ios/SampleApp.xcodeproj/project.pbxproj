@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SampleAppTests.m */; };
 		050581421E8F609A26E61BD3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EBE772BBAB10CC470AE74 /* PrivacyInfo.xcprivacy */; };
-		0C80B921A6F3F58F76C31292 /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SampleApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-SampleApp-SampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SampleApp-SampleAppTests.a */; };
+		33D758E5C4481FD2C3809096 /* libPods-SampleApp-SampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF4980FFE4EB1931097CF3 /* libPods-SampleApp-SampleAppTests.a */; };
+		5CBDCB03520F205DB49803E4 /* PersonaNfc in Frameworks */ = {isa = PBXBuildFile; productRef = 72E5ECCE60F733CB00B36398 /* PersonaNfc */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6BB69770618A2467C82F1860 /* PersonaSna in Frameworks */ = {isa = PBXBuildFile; productRef = 9A5A7D03EA42D3F86C9E5796 /* PersonaSna */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AC7532098C3C7B03D5EF9875 /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B15475B1E7366DE2E6FC7F36 /* libPods-SampleApp.a */; };
+		AF2CC8B840C1A233D1DF7525 /* PersonaOpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 769407850A929E3F23C40359 /* PersonaOpenSSL */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D5050F7EE19B5DCD9C8577DB /* PersonaWebRtc in Frameworks */ = {isa = PBXBuildFile; productRef = C39F24B4DFB64AF088D53BEB /* PersonaWebRtc */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EFE55B75E2D69FCF3C65886C /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 91CA7E2084D2934AD42DC848 /* WebRTC */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F39DE933F5212D15FE9EC61E /* PersonaInquirySDK2 in Frameworks */ = {isa = PBXBuildFile; productRef = A10AFB21D81C28415D4A9602 /* PersonaInquirySDK2 */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +43,15 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SampleApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SampleApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SampleApp/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SampleApp-SampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp-SampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3D0EBE772BBAB10CC470AE74 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = SampleApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		46AF4980FFE4EB1931097CF3 /* libPods-SampleApp-SampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp-SampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D795E3E2B1B173400C5CCC9 /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = SampleApp.entitlements; path = SampleApp/SampleApp.entitlements; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-SampleApp-SampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-SampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp-SampleAppTests/Pods-SampleApp-SampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-SampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SampleApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-SampleApp-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-SampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleApp-SampleAppTests/Pods-SampleApp-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B15475B1E7366DE2E6FC7F36 /* libPods-SampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -54,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-SampleApp-SampleAppTests.a in Frameworks */,
+				33D758E5C4481FD2C3809096 /* libPods-SampleApp-SampleAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +68,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-SampleApp.a in Frameworks */,
+				F39DE933F5212D15FE9EC61E /* PersonaInquirySDK2 in Frameworks */,
+				5CBDCB03520F205DB49803E4 /* PersonaNfc in Frameworks */,
+				6BB69770618A2467C82F1860 /* PersonaSna in Frameworks */,
+				D5050F7EE19B5DCD9C8577DB /* PersonaWebRtc in Frameworks */,
+				AF2CC8B840C1A233D1DF7525 /* PersonaOpenSSL in Frameworks */,
+				EFE55B75E2D69FCF3C65886C /* WebRTC in Frameworks */,
+				AC7532098C3C7B03D5EF9875 /* libPods-SampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,8 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-SampleApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-SampleApp-SampleAppTests.a */,
+				B15475B1E7366DE2E6FC7F36 /* libPods-SampleApp.a */,
+				46AF4980FFE4EB1931097CF3 /* libPods-SampleApp-SampleAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,6 +207,14 @@
 			dependencies = (
 			);
 			name = SampleApp;
+			packageProductDependencies = (
+				A10AFB21D81C28415D4A9602 /* PersonaInquirySDK2 */,
+				72E5ECCE60F733CB00B36398 /* PersonaNfc */,
+				9A5A7D03EA42D3F86C9E5796 /* PersonaSna */,
+				C39F24B4DFB64AF088D53BEB /* PersonaWebRtc */,
+				769407850A929E3F23C40359 /* PersonaOpenSSL */,
+				91CA7E2084D2934AD42DC848 /* WebRTC */,
+			);
 			productName = SampleApp;
 			productReference = 13B07F961A680F5B00A75B9A /* SampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -225,6 +245,14 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				82E06DDBA8A547DDD7800E8C /* XCRemoteSwiftPackageReference "inquiry-ios-2" */,
+				2648209DDBE9D53A951979EE /* XCRemoteSwiftPackageReference "inquiry-ios-nfc" */,
+				8506ED17B2B40BED445621A2 /* XCRemoteSwiftPackageReference "inquiry-ios-sna" */,
+				486747F2F2CEC7FDD5DCE5BA /* XCRemoteSwiftPackageReference "inquiry-ios-webrtc" */,
+				988305A1C906E514DCB4BCF3 /* XCRemoteSwiftPackageReference "PersonaOpenSSL" */,
+				A5067FCED5245F841EDC707D /* XCRemoteSwiftPackageReference "WebRTC" */,
+			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -543,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -570,6 +599,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
@@ -588,7 +618,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -610,6 +653,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				USE_HERMES = true;
 			};
 			name = Debug;
@@ -618,6 +662,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -645,6 +690,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
@@ -656,7 +702,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -713,6 +772,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2648209DDBE9D53A951979EE /* XCRemoteSwiftPackageReference "inquiry-ios-nfc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/persona-id/inquiry-ios-nfc.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.52.1;
+			};
+		};
+		486747F2F2CEC7FDD5DCE5BA /* XCRemoteSwiftPackageReference "inquiry-ios-webrtc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/persona-id/inquiry-ios-webrtc.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.52.1;
+			};
+		};
+		82E06DDBA8A547DDD7800E8C /* XCRemoteSwiftPackageReference "inquiry-ios-2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/persona-id/inquiry-ios-2.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.52.1;
+			};
+		};
+		8506ED17B2B40BED445621A2 /* XCRemoteSwiftPackageReference "inquiry-ios-sna" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/persona-id/inquiry-ios-sna.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.52.1;
+			};
+		};
+		988305A1C906E514DCB4BCF3 /* XCRemoteSwiftPackageReference "PersonaOpenSSL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/persona-id/PersonaOpenSSL.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.1;
+			};
+		};
+		A5067FCED5245F841EDC707D /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 111.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72E5ECCE60F733CB00B36398 /* PersonaNfc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2648209DDBE9D53A951979EE /* XCRemoteSwiftPackageReference "inquiry-ios-nfc" */;
+			productName = PersonaNfc;
+		};
+		769407850A929E3F23C40359 /* PersonaOpenSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 988305A1C906E514DCB4BCF3 /* XCRemoteSwiftPackageReference "PersonaOpenSSL" */;
+			productName = PersonaOpenSSL;
+		};
+		91CA7E2084D2934AD42DC848 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5067FCED5245F841EDC707D /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
+		};
+		9A5A7D03EA42D3F86C9E5796 /* PersonaSna */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8506ED17B2B40BED445621A2 /* XCRemoteSwiftPackageReference "inquiry-ios-sna" */;
+			productName = PersonaSna;
+		};
+		A10AFB21D81C28415D4A9602 /* PersonaInquirySDK2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82E06DDBA8A547DDD7800E8C /* XCRemoteSwiftPackageReference "inquiry-ios-2" */;
+			productName = PersonaInquirySDK2;
+		};
+		C39F24B4DFB64AF088D53BEB /* PersonaWebRtc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 486747F2F2CEC7FDD5DCE5BA /* XCRemoteSwiftPackageReference "inquiry-ios-webrtc" */;
+			productName = PersonaWebRtc;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }

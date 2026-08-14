@@ -1,0 +1,69 @@
+{
+  "originHash" : "52782eca6752b332a5c9c03e5f9d8e20e06c47b24e98ecf8a49e5b14e5dfc206",
+  "pins" : [
+    {
+      "identity" : "inquiry-ios-2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/persona-id/inquiry-ios-2.git",
+      "state" : {
+        "revision" : "efbef38af1233335af0b357b118924f7b23e3c76",
+        "version" : "2.52.1"
+      }
+    },
+    {
+      "identity" : "inquiry-ios-nfc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/persona-id/inquiry-ios-nfc.git",
+      "state" : {
+        "revision" : "fc9311369a5968748f075360a7a48c0143e491fd",
+        "version" : "2.52.1"
+      }
+    },
+    {
+      "identity" : "inquiry-ios-sna",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/persona-id/inquiry-ios-sna.git",
+      "state" : {
+        "revision" : "c8c567f9cab7ecdf18c4b13e0792508271ee1398",
+        "version" : "2.52.1"
+      }
+    },
+    {
+      "identity" : "inquiry-ios-webrtc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/persona-id/inquiry-ios-webrtc.git",
+      "state" : {
+        "revision" : "f78e1c5fe6667e9c8dc869581e13b385df74fb1a",
+        "version" : "2.52.1"
+      }
+    },
+    {
+      "identity" : "personaopenssl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/persona-id/PersonaOpenSSL.git",
+      "state" : {
+        "revision" : "e5ef92a921c708a919740eb0256e8e6208e384d1",
+        "version" : "2.0.1"
+      }
+    },
+    {
+      "identity" : "vonage-ios-client-library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Vonage/vonage-ios-client-library.git",
+      "state" : {
+        "revision" : "9fa235345c4805b07859979eaf71368f9013d47c",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "webrtc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stasel/WebRTC.git",
+      "state" : {
+        "revision" : "a08c6eecc40dce290b108bb9bb53040c0b478077",
+        "version" : "111.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
